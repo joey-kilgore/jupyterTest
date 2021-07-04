@@ -12,4 +12,14 @@ source my_virtual_env/bin/activate
 ```
 
 Run the notebook
-```jupyter notebook```
+```
+jupyter notebook
+```
+
+Setting up R
+checkout https://developers.refinitiv.com/en/article-catalog/article/setup-jupyter-notebook-r  
+```
+# sudo R
+> install.packages('IRkernel')
+> IRkernel::installspec(user = FALSE)
+```
